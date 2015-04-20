@@ -105,7 +105,8 @@ section {
 img {
     /* border:1px solid black; */
     position:relative;
-    left:2%;
+    top:4em;
+    left:3em;
     height:240px;
     width:240px;
     border-radius:100%;
@@ -115,6 +116,7 @@ img {
     position:relative;
     top:0em;
     left:0em;
+    float:left;
     height:auto;
     width:20em;
     /* border:1px solid black; */
@@ -122,9 +124,10 @@ img {
 }
 
 .detalhes {
-    position:relative;
-    top:0em;
-    left:10%;
+    /* position:relative; */
+    /* top:0em; */
+    /* left:0em; */
+    float:right;
     height:auto;
     width:15em;
     /* border:1px solid black; */
