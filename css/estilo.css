@@ -105,7 +105,6 @@ section {
 img {
     /* border:1px solid black; */
     position:relative;
-    top:4em;
     left:3em;
     height:240px;
     width:240px;
@@ -116,7 +115,7 @@ img {
     position:relative;
     top:0em;
     left:0em;
-    float:left;
+    /* float:left; */
     height:auto;
     width:20em;
     /* border:1px solid black; */
@@ -124,10 +123,10 @@ img {
 }
 
 .detalhes {
-    /* position:relative; */
-    /* top:0em; */
-    /* left:0em; */
-    float:right;
+    position:relative;
+    top:-2em;
+    left:5em;
+    /* float:right; */
     height:auto;
     width:15em;
     /* border:1px solid black; */
