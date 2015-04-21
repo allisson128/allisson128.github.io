@@ -20,7 +20,7 @@ body{
 }
 #nome {
     /* color:#20b2aa; */
-    color:#33cc33;
+    color:#20fa48;
     /* color:#eed8ae; */
     /* font-size:2em; */
 
@@ -34,8 +34,8 @@ body{
 }
 #snd-heading{
     display:inline-block;    
-    color:#c9c9ff;
-    font-size:1.5em;
+    color:#cccc00;
+    font-size:1.2em;
     /* border: black 1px solid; */
     font-family: 'Droid Sans', arial, serif;
     /* font-family:Georgia, serif; */
@@ -46,12 +46,12 @@ nav {
     /* background-color: #FFFFFF; */
 
     /* background: linear-gradient(to  right, #c0c0c0 , #00cdcd); /\* Standard syntax (must be last) *\/ */
-    margin: 0px 10% 0px 10%;
+    /* margin: 0px 10% 0px 10%; */
     border-style: solid;
     border-top: none;
     border-left:none;
     border-right:none;
-    width:80%;
+    width:100%;
     text-align:center;
     text-shadow: 3px 2px 15px #333333;
     font-family: Tahoma, Geneva, sans-serif;
@@ -86,8 +86,8 @@ nav a{
     padding: 8px 8px 8px 8px;
 }
 nav a:hover{
-    color: #fdebf3;
-    background-color: gray;
+    color: #ffffff;
+    background-color: #33add6;
     border-radius: 8px;
 }
 
@@ -98,39 +98,63 @@ section {
 
 }
 
+section#cv {
+    margin: 0px;
+    width:100%;
+}
+
 .titulo {
     text-align:center;
     /* border:1px solid black; */
 
 }
 
+.container {
+    /* border:1px solid pink; */
+position:relative;
+    top:2em;
+    height:auto;
+    width:30%;
+    display:inline-block;
+
+}
+
 img {
     /* border:1px solid black; */
-    position:relative;
-    left:3em;
-    height:240px;
-    width:240px;
+    /* position:relative; */
+    /* left:3em; */
+    /* height:240px; */
+    /* width:240px; */
+    height:70%;
+    width:70%;
+
     border-radius:100%;
-    display:inline-block;
+
 }
 .sobre {
-    position:relative;
-    top:0em;
-    left:0em;
+    /* position:absolute; */
+    /* top:0em; */
+    /* left:0em; */
     /* float:left; */
+    float:left;
     height:auto;
-    width:20em;
+    width:33%;
     /* border:1px solid black; */
     display:inline-block;
 }
 
 .detalhes {
-    position:relative;
-    top:-2em;
-    left:5em;
-    /* float:right; */
+    /* position:relative; */
+    /* top:-2em; */
+    /* left:5em; */
+    float:right;
     height:auto;
-    width:15em;
+    /* width:15em; */
+    width:33%;
     /* border:1px solid black; */
     display:inline-block;
+}
+
+footer {
+    clear:both;
 }
